@@ -1,35 +1,44 @@
-from __future__ import annotations
-
-from io import BytesIO
+import os
+from pathlib import Path
 
 from pydub import AudioSegment
-from pydub.silence import split_on_silence
+from pydub.exceptions import CouldntDecodeError
+from pydub.effects import normalize
 
 
-def normalize_audio_to_wav(audio_bytes: bytes, filename: str | None = None) -> BytesIO:
-    file_ext = "wav"
-    if filename and "." in filename:
-        file_ext = filename.rsplit(".", 1)[-1].lower()
+class AudioConversionError(Exception):
+    pass
 
-    source = BytesIO(audio_bytes)
-    audio = AudioSegment.from_file(source, format=file_ext)
-    audio = audio.set_channels(1).set_frame_rate(16000)
 
-    chunks = split_on_silence(
-        audio,
-        min_silence_len=400,
-        silence_thresh=audio.dBFS - 16 if audio.dBFS != float("-inf") else -50,
-        keep_silence=120,
-    )
+def convert_audio_to_wav(input_path: str, output_dir: str) -> str:
+    """
+    Converts any ffmpeg-supported audio format to WAV format.
+    SpeechRecognition works reliably with WAV/AIFF/FLAC,
+    so we normalize all uploads to WAV.
+    """
+    output_path = Path(output_dir) / "normalized_audio.wav"
 
-    if chunks:
-        processed = chunks[0]
-        for chunk in chunks[1:]:
-            processed += chunk
-    else:
-        processed = audio
+    try:
+        segment = AudioSegment.from_file(input_path)
+    except CouldntDecodeError as error:
+        raise AudioConversionError(
+            "Could not decode audio file. Please upload a valid audio format."
+        ) from error
+    except Exception as error:
+        raise AudioConversionError(f"Audio conversion failed: {error}") from error
 
-    wav_buffer = BytesIO()
-    processed.export(wav_buffer, format="wav")
-    wav_buffer.seek(0)
-    return wav_buffer
+    # Normalize volume and convert to mono 16kHz for recognition stability.
+    if segment.dBFS != float("-inf"):
+        segment = normalize(segment)
+
+    segment = segment.set_channels(1).set_frame_rate(16000)
+
+    try:
+        segment.export(output_path, format="wav", parameters=["-acodec", "pcm_s16le"])
+    except Exception as error:
+        raise AudioConversionError(f"Could not export WAV file: {error}") from error
+
+    if not os.path.exists(output_path):
+        raise AudioConversionError("WAV output file was not created.")
+
+    return str(output_path)

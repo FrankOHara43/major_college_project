@@ -1,6 +1,5 @@
-fastapi
-uvicorn
-python-multipart
-SpeechRecognition
-pydub
-httpx
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+SpeechRecognition==3.14.3
+pydub==0.25.1
+python-multipart==0.0.20

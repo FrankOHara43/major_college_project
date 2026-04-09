@@ -1,0 +1,1118 @@
+[
+  {
+    "raw_text": "hello how are you",
+    "clean_text": "Hello, how are you?",
+    "intent": "general",
+    "id": 1,
+    "keywords": [
+      "hello",
+      "how"
+    ]
+  },
+  {
+    "raw_text": "i am fine thank you",
+    "clean_text": "I am fine, thank you.",
+    "intent": "general",
+    "id": 2,
+    "keywords": [
+      "fine",
+      "thank"
+    ]
+  },
+  {
+    "raw_text": "what is your name",
+    "clean_text": "What is your name?",
+    "intent": "general",
+    "id": 3,
+    "keywords": [
+      "what",
+      "name"
+    ]
+  },
+  {
+    "raw_text": "my name is john",
+    "clean_text": "My name is John.",
+    "intent": "general",
+    "id": 4,
+    "keywords": [
+      "name",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "this is a test sentence",
+    "clean_text": "This is a test sentence.",
+    "intent": "general",
+    "id": 5,
+    "keywords": [
+      "test",
+      "sentence"
+    ]
+  },
+  {
+    "raw_text": "can you help me",
+    "clean_text": "Can you help me?",
+    "intent": "support",
+    "id": 6,
+    "keywords": [
+      "can",
+      "help"
+    ]
+  },
+  {
+    "raw_text": "i need assistance now",
+    "clean_text": "I need assistance now.",
+    "intent": "support",
+    "id": 7,
+    "keywords": [
+      "need",
+      "assistance",
+      "now"
+    ]
+  },
+  {
+    "raw_text": "where is the nearest store",
+    "clean_text": "Where is the nearest store?",
+    "intent": "general",
+    "id": 8,
+    "keywords": [
+      "where",
+      "nearest",
+      "store"
+    ]
+  },
+  {
+    "raw_text": "please call me later",
+    "clean_text": "Please call me later.",
+    "intent": "general",
+    "id": 9,
+    "keywords": [
+      "please",
+      "call",
+      "later"
+    ]
+  },
+  {
+    "raw_text": "i will be there soon",
+    "clean_text": "I will be there soon.",
+    "intent": "general",
+    "id": 10,
+    "keywords": [
+      "there",
+      "soon"
+    ]
+  },
+  {
+    "raw_text": "this project is amazing",
+    "clean_text": "This project is amazing.",
+    "intent": "product",
+    "id": 11,
+    "keywords": [
+      "project",
+      "amazing"
+    ]
+  },
+  {
+    "raw_text": "we are building something cool",
+    "clean_text": "We are building something cool.",
+    "intent": "product",
+    "id": 12,
+    "keywords": [
+      "building",
+      "something",
+      "cool"
+    ]
+  },
+  {
+    "raw_text": "fastapi is very efficient",
+    "clean_text": "FastAPI is very efficient.",
+    "intent": "technical",
+    "id": 13,
+    "keywords": [
+      "fastapi",
+      "very",
+      "efficient"
+    ]
+  },
+  {
+    "raw_text": "react makes ui easy",
+    "clean_text": "React makes UI easy.",
+    "intent": "technical",
+    "id": 14,
+    "keywords": [
+      "react",
+      "makes",
+      "easy"
+    ]
+  },
+  {
+    "raw_text": "tailwind is great for styling",
+    "clean_text": "Tailwind is great for styling.",
+    "intent": "technical",
+    "id": 15,
+    "keywords": [
+      "tailwind",
+      "great",
+      "styling"
+    ]
+  },
+  {
+    "raw_text": "add punctuation to this sentence",
+    "clean_text": "Add punctuation to this sentence.",
+    "intent": "editing",
+    "id": 16,
+    "keywords": [
+      "add",
+      "punctuation",
+      "sentence"
+    ]
+  },
+  {
+    "raw_text": "remove noise from audio",
+    "clean_text": "Remove noise from audio.",
+    "intent": "audio",
+    "id": 17,
+    "keywords": [
+      "remove",
+      "noise",
+      "audio"
+    ]
+  },
+  {
+    "raw_text": "speech recognition is interesting",
+    "clean_text": "Speech recognition is interesting.",
+    "intent": "technical",
+    "id": 18,
+    "keywords": [
+      "speech",
+      "recognition",
+      "interesting"
+    ]
+  },
+  {
+    "raw_text": "machine learning is powerful",
+    "clean_text": "Machine learning is powerful.",
+    "intent": "technical",
+    "id": 19,
+    "keywords": [
+      "machine",
+      "learning",
+      "powerful"
+    ]
+  },
+  {
+    "raw_text": "deploy the app soon",
+    "clean_text": "Deploy the app soon.",
+    "intent": "devops",
+    "id": 20,
+    "keywords": [
+      "deploy",
+      "app",
+      "soon"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 21,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 22,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 23,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 24,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 25,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 26,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 27,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 28,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 29,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 30,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 31,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 32,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 33,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 34,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 35,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 36,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 37,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 38,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 39,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 40,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 41,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 42,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 43,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 44,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 45,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 46,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 47,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 48,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 49,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 50,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 51,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 52,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 53,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 54,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 55,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 56,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 57,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 58,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 59,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 60,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 61,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 62,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 63,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 64,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 65,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 66,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 67,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 68,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 69,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 70,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 71,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 72,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 73,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 74,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 75,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 76,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 77,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 78,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 79,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 80,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 81,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 82,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 83,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 84,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 85,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 86,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 87,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 88,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 89,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 90,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  },
+  {
+    "raw_text": "schedule a meeting with john",
+    "clean_text": "Schedule a meeting with John.",
+    "intent": "meeting",
+    "id": 91,
+    "keywords": [
+      "schedule",
+      "meeting",
+      "john"
+    ]
+  },
+  {
+    "raw_text": "send the summary to maya",
+    "clean_text": "Send the summary to Maya.",
+    "intent": "meeting",
+    "id": 92,
+    "keywords": [
+      "send",
+      "summary",
+      "maya"
+    ]
+  },
+  {
+    "raw_text": "translate this into spanish",
+    "clean_text": "Translate this into Spanish.",
+    "intent": "translation",
+    "id": 93,
+    "keywords": [
+      "translate",
+      "into",
+      "spanish"
+    ]
+  },
+  {
+    "raw_text": "generate action items from transcript",
+    "clean_text": "Generate action items from transcript.",
+    "intent": "meeting",
+    "id": 94,
+    "keywords": [
+      "generate",
+      "action",
+      "items",
+      "transcript"
+    ]
+  },
+  {
+    "raw_text": "im joining from mumbai",
+    "clean_text": "I'm joining from Mumbai.",
+    "intent": "general",
+    "id": 95,
+    "keywords": [
+      "joining",
+      "mumbai"
+    ]
+  },
+  {
+    "raw_text": "please add postgresql to the project",
+    "clean_text": "Please add PostgreSQL to the project.",
+    "intent": "product",
+    "id": 96,
+    "keywords": [
+      "please",
+      "add",
+      "postgresql",
+      "project"
+    ]
+  },
+  {
+    "raw_text": "the api response time is slow",
+    "clean_text": "The API response time is slow.",
+    "intent": "support",
+    "id": 97,
+    "keywords": [
+      "api",
+      "response",
+      "time",
+      "slow"
+    ]
+  },
+  {
+    "raw_text": "can we deploy on kubernetes",
+    "clean_text": "Can we deploy on Kubernetes?",
+    "intent": "devops",
+    "id": 98,
+    "keywords": [
+      "can",
+      "deploy",
+      "kubernetes"
+    ]
+  },
+  {
+    "raw_text": "create documentation for onboarding",
+    "clean_text": "Create documentation for onboarding.",
+    "intent": "product",
+    "id": 99,
+    "keywords": [
+      "create",
+      "documentation",
+      "onboarding"
+    ]
+  },
+  {
+    "raw_text": "this sprint needs better planning",
+    "clean_text": "This sprint needs better planning.",
+    "intent": "meeting",
+    "id": 100,
+    "keywords": [
+      "sprint",
+      "needs",
+      "better",
+      "planning"
+    ]
+  }
+]
